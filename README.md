@@ -6,6 +6,8 @@ This Google Earth Engine (GEE) application visualizes and compares the spatial d
 
 The application converts population counts into population density (persons per km²) and provides synchronized maps with an interactive swipe tool for visual comparison between baseline and projected population distributions.
 
+Output map in app is shown here: https://atiq-project-july2025.projects.earthengine.app/view/bgdpopu18comp
+
 ---
 
 ## Study Area
