@@ -1,12 +1,15 @@
 # Under-18 Population Density Mapping in Bangladesh (2022 vs 2030) Using Google Earth Engine
 
+Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
+
+
 ## Overview
 
 This Google Earth Engine (GEE) application visualizes and compares the spatial distribution of the under-18 population across Bangladesh for the years 2022 and 2030. The workflow uses WorldPop-derived gridded population datasets and presents interactive side-by-side maps to support demographic, climate risk, humanitarian, urban planning, and service delivery analyses.
 
 The application converts population counts into population density (persons per km²) and provides synchronized maps with an interactive swipe tool for visual comparison between baseline and projected population distributions.
 
-Output map in app is shown here: https://atiq-project-july2025.projects.earthengine.app/view/bgdpopu18comp
+The output map is shown here https://atiq-project-july2025.projects.earthengine.app/view/bgdpopu18comp
 
 ---
 
@@ -218,15 +221,6 @@ The application generates:
 - Access to the WorldPop under-18 population assets
 - Google Earth Engine JavaScript Code Editor
 
----
-
-## Author
-
-** Atiq Kainan Ahmed **
-
-Email: atiqka@yahoo.com
-
-GitHub: https://github.com/atiqka
 
 ---
 
@@ -242,3 +236,15 @@ This application is particularly useful for:
 - National and sub-national demographic planning
 
 ---
+
+## License
+
+MIT License
+
+Copyright (c) 2026 Atiq Kainan Ahmed.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
