@@ -1,15 +1,14 @@
-# Under-18 Population Density Mapping in Bangladesh (2022 vs 2030) Using Google Earth Engine
+# Under-18 Population Density Mapping in Bangladesh (2022 vs 2030) Using Google Earth Engine and WorldPop Globe2
 
 Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
 
+The output map is shown here https://atiq-project-july2025.projects.earthengine.app/view/bgdpopu18comp
 
 ## Overview
 
 This Google Earth Engine (GEE) application visualizes and compares the spatial distribution of the under-18 population across Bangladesh for the years 2022 and 2030. The workflow uses WorldPop-derived gridded population datasets and presents interactive side-by-side maps to support demographic, climate risk, humanitarian, urban planning, and service delivery analyses.
 
 The application converts population counts into population density (persons per km²) and provides synchronized maps with an interactive swipe tool for visual comparison between baseline and projected population distributions.
-
-The output map is shown here https://atiq-project-july2025.projects.earthengine.app/view/bgdpopu18comp
 
 ---
 
@@ -32,7 +31,7 @@ users/atiqka/bgd_admbnda_adm0_bbs_20201113
 
 ### Population Data
 
-WorldPop under-18 population gridded datasets:
+WorldPop Global2 under-18 population gridded datasets:
 
 | Year | Earth Engine Asset |
 |--------|--------|
@@ -218,7 +217,7 @@ The application generates:
 
 - Google Earth Engine account
 - Access to the Bangladesh boundary asset
-- Access to the WorldPop under-18 population assets
+- Access to the WorldPop Global2 under-18 population assets
 - Google Earth Engine JavaScript Code Editor
 
 
